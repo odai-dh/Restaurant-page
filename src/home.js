@@ -7,9 +7,10 @@ export default function loadHome() {
     // Banner Image
     const banner = document.createElement('div');
     banner.classList.add('banner');
-    banner.style.backgroundImage = "url('https://via.placeholder.com/1200x500')";
+    banner.style.backgroundImage = "url('https://hyphenonline.com/wp-content/uploads/2024/03/01C-ramadan-restaurants.jpg)";
+    document.body.appendChild(banner); 
 
-    const headline = document.createElement('h2');
+    const headline = document.createElement('h1');
     headline.textContent = 'Welcome to Authentic Arabic Dining';
     banner.appendChild(headline);
 

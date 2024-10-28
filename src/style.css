@@ -1,9 +1,16 @@
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('./img/arabic4.otf') format('truetype');
+}
+
+
 body {
-    font-family: 'Georgia', serif;
+    font-family: 'MyCustomFont','Georgia', serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
-    color: #333;
+    color: #000000;
 }
 
 header {
@@ -16,44 +23,66 @@ header {
 nav button {
     margin: 10px;
     padding: 10px 20px;
-    background-color: #A52A2A;
+    background-color: #701d1d;
     color: white;
     border: none;
     cursor: pointer;
     font-size: 16px;
     border-radius: 5px;
+    transition: transform 0.3s ease; 
 }
 
 nav button:hover {
     background-color: #B22222;
+    transform: scale(1.5);
 }
 
 #content {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff8dc;
+    background-color: #faafaf;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 }
-
+.banner img{
+    border: solid 2px black;
+    border-radius: 5px;
+    color: #2600ff;
+}
 .banner {
     background-size: cover;
     background-position: center;
-    height: 300px;
+    height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: white;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
 }
 
-h1, h2, h3 {
+h2{
     color: #8B0000;
+    font-size: 35px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+h3{
+    color: #8B0000;
+    font-size: 20px;
+
+}
+h1{
+    color: #8B0000;
+    background-color: rgba(10, 10, 10, 0.6);
+    font-style:unset;
+    
+}
+.img1{
+    width: 100%;
 }
 
 .intro p, .menu-item p {
-    font-size: 18px;
+    font-size: 20px;
+    text-align: center;
     color: #555;
 }
 
@@ -61,6 +90,7 @@ h1, h2, h3 {
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
+    justify-content: center;
 }
 
 .menu-item {
@@ -71,6 +101,13 @@ h1, h2, h3 {
     width: calc(50% - 15px);
 }
 
+a{
+    color: #f4f4f4;
+}
+a:hover{
+    color: #2600ff;
+}
+
 footer {
     background-color: #8B0000;
     color: white;
@@ -78,5 +115,6 @@ footer {
     padding: 10px;
     width: 100%;
     position:fixed;
-    bottom: 1px;
+    bottom: 0px;
+    left: 0;
 }

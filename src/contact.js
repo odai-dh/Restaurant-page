@@ -4,7 +4,7 @@ export default function loadContact() {
     const content = document.getElementById('content');
     content.innerHTML = ''; // Clear previous content
 
-    const headline = document.createElement('h1');
+    const headline = document.createElement('h2');
     headline.textContent = 'Contact Us';
 
     // Contact Information

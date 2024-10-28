@@ -1,10 +1,16 @@
 // src/menu.js
+import img1 from './img/img1.jpg';
+import img2 from './img/img2.jpg';
+import img3 from './img/img3.jpg';
+import img4 from './img/img4.jpg';
+
+
 
 export default function loadMenu() {
     const content = document.getElementById('content');
     content.innerHTML = ''; // Clear previous content
 
-    const headline = document.createElement('h1');
+    const headline = document.createElement('h2');
     headline.textContent = 'Our Menu';
 
     const menuList = document.createElement('div');
@@ -13,23 +19,23 @@ export default function loadMenu() {
     const items = [
         {
             name: 'Shawarma',
-            description: 'Marinated grilled chicken or beef wrapped in pita bread',
-            imageUrl: 'https://via.placeholder.com/200x150'
+            description: 'Thinly sliced, marinated meat (chicken, beef, or lamb) served in pita bread with vegetables and sauces.',
+            imageUrl: img1
         },
         {
             name: 'Hummus',
-            description: 'Smooth blend of chickpeas, tahini, and olive oil',
-            imageUrl: 'https://via.placeholder.com/200x150'
+            description: 'A smooth, creamy dip made from blended chickpeas, tahini (sesame paste), lemon juice, and garlic, garnished with olive oil, vegetables and spices.',
+            imageUrl: img2
         },
         {
             name: 'Falafel',
-            description: 'Deep-fried chickpea patties with herbs and spices',
-            imageUrl: 'https://via.placeholder.com/200x150'
+            description: 'Deep-fried patties made from ground chickpeas, mixed with herbs and spices, served in pita or plate with salad and tahini.',
+            imageUrl: img3
         },
         {
-            name: 'Kebabs',
-            description: 'Skewered meat grilled to perfection',
-            imageUrl: 'https://via.placeholder.com/200x150'
+            name: 'Kebbeh',
+            description: 'A Middle Eastern dish of spiced ground beef or lamb, mixed with bulgur wheat, formed into balls or patties, either fried or baked.',
+            imageUrl: img4
         }
     ];
 
@@ -40,6 +46,7 @@ export default function loadMenu() {
         const img = document.createElement('img');
         img.src = item.imageUrl;
         img.alt = item.name;
+        img.classList.add('img1');
 
         const name = document.createElement('h3');
         name.textContent = item.name;
