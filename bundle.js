@@ -16,7 +16,7 @@
   \*************************************************************/
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n// Imports\n\n\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `body {\n    font-family: 'Georgia', serif;\n    margin: 0;\n    padding: 0;\n    background-color: #f4f4f4;\n    color: #333;\n}\n\nheader {\n    background-color: #8B0000;\n    color: white;\n    padding: 10px;\n    text-align: center;\n}\n\nnav button {\n    margin: 10px;\n    padding: 10px 20px;\n    background-color: #A52A2A;\n    color: white;\n    border: none;\n    cursor: pointer;\n    font-size: 16px;\n    border-radius: 5px;\n}\n\nnav button:hover {\n    background-color: #B22222;\n}\n\n#content {\n    max-width: 800px;\n    margin: 20px auto;\n    padding: 20px;\n    background-color: #fff8dc;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    border-radius: 8px;\n}\n\n.banner {\n    background-size: cover;\n    background-position: center;\n    height: 300px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    color: white;\n    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);\n}\n\nh1, h2, h3 {\n    color: #8B0000;\n}\n\n.intro p, .menu-item p {\n    font-size: 18px;\n    color: #555;\n}\n\n.menu-list {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 15px;\n}\n\n.menu-item {\n    background-color: white;\n    padding: 15px;\n    border-radius: 8px;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    width: calc(50% - 15px);\n}\n\nfooter {\n    background-color: #8B0000;\n    color: white;\n    text-align: center;\n    padding: 10px;\n    width: 100%;\n    position:fixed;\n    bottom: 1px;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://your-project/./src/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/noSourceMaps.js */ \"./node_modules/css-loader/dist/runtime/noSourceMaps.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/getUrl.js */ \"./node_modules/css-loader/dist/runtime/getUrl.js\");\n/* harmony import */ var _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2__);\n// Imports\n\n\n\nvar ___CSS_LOADER_URL_IMPORT_0___ = new URL(/* asset import */ __webpack_require__(/*! ./img/arabic4.otf */ \"./src/img/arabic4.otf\"), __webpack_require__.b);\nvar ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_noSourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));\nvar ___CSS_LOADER_URL_REPLACEMENT_0___ = _node_modules_css_loader_dist_runtime_getUrl_js__WEBPACK_IMPORTED_MODULE_2___default()(___CSS_LOADER_URL_IMPORT_0___);\n// Module\n___CSS_LOADER_EXPORT___.push([module.id, `\n@font-face {\n    font-family: 'MyCustomFont';\n    src: url(${___CSS_LOADER_URL_REPLACEMENT_0___}) format('truetype');\n}\n\n\nbody {\n    font-family: 'MyCustomFont','Georgia', serif;\n    margin: 0;\n    padding: 0;\n    background-color: #f4f4f4;\n    color: #000000;\n}\n\nheader {\n    background-color: #8B0000;\n    color: white;\n    padding: 10px;\n    text-align: center;\n}\n\nnav button {\n    margin: 10px;\n    padding: 10px 20px;\n    background-color: #701d1d;\n    color: white;\n    border: none;\n    cursor: pointer;\n    font-size: 16px;\n    border-radius: 5px;\n    transition: transform 0.3s ease; \n}\n\nnav button:hover {\n    background-color: #B22222;\n    transform: scale(1.5);\n}\n\n#content {\n    max-width: 800px;\n    margin: 20px auto;\n    padding: 20px;\n    background-color: #faafaf;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    border-radius: 8px;\n}\n.banner img{\n    border: solid 2px black;\n    border-radius: 5px;\n    color: #2600ff;\n}\n.banner {\n    background-size: cover;\n    background-position: center;\n    height: 650px;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    border-radius: 5px;\n}\n\nh2{\n    color: #8B0000;\n    font-size: 35px;\n    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);\n}\nh3{\n    color: #8B0000;\n    font-size: 20px;\n\n}\nh1{\n    color: #8B0000;\n    background-color: rgba(10, 10, 10, 0.6);\n    font-style:unset;\n    \n}\n.img1{\n    width: 100%;\n}\n\n.intro p, .menu-item p {\n    font-size: 20px;\n    text-align: center;\n    color: #555;\n}\n\n.menu-list {\n    display: flex;\n    flex-wrap: wrap;\n    gap: 15px;\n    justify-content: center;\n}\n\n.menu-item {\n    background-color: white;\n    padding: 15px;\n    border-radius: 8px;\n    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n    width: calc(50% - 15px);\n}\n\na{\n    color: #f4f4f4;\n}\na:hover{\n    color: #2600ff;\n}\n\nfooter {\n    background-color: #8B0000;\n    color: white;\n    text-align: center;\n    padding: 10px;\n    width: 100%;\n    position:fixed;\n    bottom: 0px;\n    left: 0;\n}`, \"\"]);\n// Exports\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);\n\n\n//# sourceURL=webpack://your-project/./src/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -27,6 +27,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ ((module) => {
 
 eval("\n\n/*\n  MIT License http://www.opensource.org/licenses/mit-license.php\n  Author Tobias Koppers @sokra\n*/\nmodule.exports = function (cssWithMappingToString) {\n  var list = [];\n\n  // return the list of modules as css string\n  list.toString = function toString() {\n    return this.map(function (item) {\n      var content = \"\";\n      var needLayer = typeof item[5] !== \"undefined\";\n      if (item[4]) {\n        content += \"@supports (\".concat(item[4], \") {\");\n      }\n      if (item[2]) {\n        content += \"@media \".concat(item[2], \" {\");\n      }\n      if (needLayer) {\n        content += \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\");\n      }\n      content += cssWithMappingToString(item);\n      if (needLayer) {\n        content += \"}\";\n      }\n      if (item[2]) {\n        content += \"}\";\n      }\n      if (item[4]) {\n        content += \"}\";\n      }\n      return content;\n    }).join(\"\");\n  };\n\n  // import a list of modules into the list\n  list.i = function i(modules, media, dedupe, supports, layer) {\n    if (typeof modules === \"string\") {\n      modules = [[null, modules, undefined]];\n    }\n    var alreadyImportedModules = {};\n    if (dedupe) {\n      for (var k = 0; k < this.length; k++) {\n        var id = this[k][0];\n        if (id != null) {\n          alreadyImportedModules[id] = true;\n        }\n      }\n    }\n    for (var _k = 0; _k < modules.length; _k++) {\n      var item = [].concat(modules[_k]);\n      if (dedupe && alreadyImportedModules[item[0]]) {\n        continue;\n      }\n      if (typeof layer !== \"undefined\") {\n        if (typeof item[5] === \"undefined\") {\n          item[5] = layer;\n        } else {\n          item[1] = \"@layer\".concat(item[5].length > 0 ? \" \".concat(item[5]) : \"\", \" {\").concat(item[1], \"}\");\n          item[5] = layer;\n        }\n      }\n      if (media) {\n        if (!item[2]) {\n          item[2] = media;\n        } else {\n          item[1] = \"@media \".concat(item[2], \" {\").concat(item[1], \"}\");\n          item[2] = media;\n        }\n      }\n      if (supports) {\n        if (!item[4]) {\n          item[4] = \"\".concat(supports);\n        } else {\n          item[1] = \"@supports (\".concat(item[4], \") {\").concat(item[1], \"}\");\n          item[4] = supports;\n        }\n      }\n      list.push(item);\n    }\n  };\n  return list;\n};\n\n//# sourceURL=webpack://your-project/./node_modules/css-loader/dist/runtime/api.js?");
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/dist/runtime/getUrl.js":
+/*!********************************************************!*\
+  !*** ./node_modules/css-loader/dist/runtime/getUrl.js ***!
+  \********************************************************/
+/***/ ((module) => {
+
+eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    options = {};\n  }\n  if (!url) {\n    return url;\n  }\n  url = String(url.__esModule ? url.default : url);\n\n  // If url is already wrapped in quotes, remove them\n  if (/^['\"].*['\"]$/.test(url)) {\n    url = url.slice(1, -1);\n  }\n  if (options.hash) {\n    url += options.hash;\n  }\n\n  // Should url be wrapped?\n  // See https://drafts.csswg.org/css-values-3/#urls\n  if (/[\"'() \\t\\n]|(%20)/.test(url) || options.needQuotes) {\n    return \"\\\"\".concat(url.replace(/\"/g, '\\\\\"').replace(/\\n/g, \"\\\\n\"), \"\\\"\");\n  }\n  return url;\n};\n\n//# sourceURL=webpack://your-project/./node_modules/css-loader/dist/runtime/getUrl.js?");
 
 /***/ }),
 
@@ -116,7 +126,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadContact)\n/* harmony export */ });\n// src/contact.js\n\nfunction loadContact() {\n    const content = document.getElementById('content');\n    content.innerHTML = ''; // Clear previous content\n\n    const headline = document.createElement('h1');\n    headline.textContent = 'Contact Us';\n\n    // Contact Information\n    const phone = document.createElement('p');\n    phone.textContent = 'Phone: +971-555-123456';\n\n    const address = document.createElement('p');\n    address.textContent = 'Address: 123 Al-Qasr Street, Dubai, UAE';\n\n    const hours = document.createElement('p');\n    hours.textContent = 'Hours: Open daily from 12:00 PM to 11:00 PM';\n\n    // Reservation Form\n    const form = document.createElement('form');\n    form.id = 'reservation-form';\n\n    const nameLabel = document.createElement('label');\n    nameLabel.for = 'name';\n    nameLabel.textContent = 'Name:';\n    const nameInput = document.createElement('input');\n    nameInput.type = 'text';\n    nameInput.id = 'name';\n    nameInput.required = true;\n\n    const emailLabel = document.createElement('label');\n    emailLabel.for = 'email';\n    emailLabel.textContent = 'Email:';\n    const emailInput = document.createElement('input');\n    emailInput.type = 'email';\n    emailInput.id = 'email';\n    emailInput.required = true;\n\n    const dateLabel = document.createElement('label');\n    dateLabel.for = 'date';\n    dateLabel.textContent = 'Reservation Date:';\n    const dateInput = document.createElement('input');\n    dateInput.type = 'date';\n    dateInput.id = 'date';\n    dateInput.required = true;\n\n    const submitButton = document.createElement('button');\n    submitButton.type = 'submit';\n    submitButton.textContent = 'Submit';\n\n    // Append form fields\n    form.append(nameLabel, nameInput, emailLabel, emailInput, dateLabel, dateInput, submitButton);\n\n    // Append all to content\n    content.appendChild(headline);\n    content.appendChild(phone);\n    content.appendChild(address);\n    content.appendChild(hours);\n    content.appendChild(form);\n}\n\n//# sourceURL=webpack://your-project/./src/contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadContact)\n/* harmony export */ });\n// src/contact.js\n\nfunction loadContact() {\n    const content = document.getElementById('content');\n    content.innerHTML = ''; // Clear previous content\n\n    const headline = document.createElement('h2');\n    headline.textContent = 'Contact Us';\n\n    // Contact Information\n    const phone = document.createElement('p');\n    phone.textContent = 'Phone: +971-555-123456';\n\n    const address = document.createElement('p');\n    address.textContent = 'Address: 123 Al-Qasr Street, Dubai, UAE';\n\n    const hours = document.createElement('p');\n    hours.textContent = 'Hours: Open daily from 12:00 PM to 11:00 PM';\n\n    // Reservation Form\n    const form = document.createElement('form');\n    form.id = 'reservation-form';\n\n    const nameLabel = document.createElement('label');\n    nameLabel.for = 'name';\n    nameLabel.textContent = 'Name:';\n    const nameInput = document.createElement('input');\n    nameInput.type = 'text';\n    nameInput.id = 'name';\n    nameInput.required = true;\n\n    const emailLabel = document.createElement('label');\n    emailLabel.for = 'email';\n    emailLabel.textContent = 'Email:';\n    const emailInput = document.createElement('input');\n    emailInput.type = 'email';\n    emailInput.id = 'email';\n    emailInput.required = true;\n\n    const dateLabel = document.createElement('label');\n    dateLabel.for = 'date';\n    dateLabel.textContent = 'Reservation Date:';\n    const dateInput = document.createElement('input');\n    dateInput.type = 'date';\n    dateInput.id = 'date';\n    dateInput.required = true;\n\n    const submitButton = document.createElement('button');\n    submitButton.type = 'submit';\n    submitButton.textContent = 'Submit';\n\n    // Append form fields\n    form.append(nameLabel, nameInput, emailLabel, emailInput, dateLabel, dateInput, submitButton);\n\n    // Append all to content\n    content.appendChild(headline);\n    content.appendChild(phone);\n    content.appendChild(address);\n    content.appendChild(hours);\n    content.appendChild(form);\n}\n\n//# sourceURL=webpack://your-project/./src/contact.js?");
 
 /***/ }),
 
@@ -126,7 +136,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadHome)\n/* harmony export */ });\n// src/home.js\n\nfunction loadHome() {\n    const content = document.getElementById('content');\n    content.innerHTML = ''; // Clear previous content\n\n    // Banner Image\n    const banner = document.createElement('div');\n    banner.classList.add('banner');\n    banner.style.backgroundImage = \"url('https://via.placeholder.com/1200x500')\";\n\n    const headline = document.createElement('h2');\n    headline.textContent = 'Welcome to Authentic Arabic Dining';\n    banner.appendChild(headline);\n\n    // Introduction Section\n    const intro = document.createElement('div');\n    intro.classList.add('intro');\n\n    const description = document.createElement('p');\n    description.textContent = 'At Al-Qasr Restaurant, we bring the taste of traditional Arabic cuisine to your table. Our chefs craft each dish with the finest ingredients and authentic spices, ensuring a truly unforgettable dining experience.';\n\n    intro.appendChild(description);\n\n    // Append sections to content\n    content.appendChild(banner);\n    content.appendChild(intro);\n}\n\n//# sourceURL=webpack://your-project/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadHome)\n/* harmony export */ });\n// src/home.js\n\nfunction loadHome() {\n    const content = document.getElementById('content');\n    content.innerHTML = ''; // Clear previous content\n\n    // Banner Image\n    const banner = document.createElement('div');\n    banner.classList.add('banner');\n    banner.style.backgroundImage = \"url('https://hyphenonline.com/wp-content/uploads/2024/03/01C-ramadan-restaurants.jpg)\";\n    document.body.appendChild(banner); \n\n    const headline = document.createElement('h1');\n    headline.textContent = 'Welcome to Authentic Arabic Dining';\n    banner.appendChild(headline);\n\n    // Introduction Section\n    const intro = document.createElement('div');\n    intro.classList.add('intro');\n\n    const description = document.createElement('p');\n    description.textContent = 'At Al-Qasr Restaurant, we bring the taste of traditional Arabic cuisine to your table. Our chefs craft each dish with the finest ingredients and authentic spices, ensuring a truly unforgettable dining experience.';\n\n    intro.appendChild(description);\n\n    // Append sections to content\n    content.appendChild(banner);\n    content.appendChild(intro);\n}\n\n//# sourceURL=webpack://your-project/./src/home.js?");
 
 /***/ }),
 
@@ -146,7 +156,57 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hom
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadMenu)\n/* harmony export */ });\n// src/menu.js\n\nfunction loadMenu() {\n    const content = document.getElementById('content');\n    content.innerHTML = ''; // Clear previous content\n\n    const headline = document.createElement('h1');\n    headline.textContent = 'Our Menu';\n\n    const menuList = document.createElement('div');\n    menuList.classList.add('menu-list');\n\n    const items = [\n        {\n            name: 'Shawarma',\n            description: 'Marinated grilled chicken or beef wrapped in pita bread',\n            imageUrl: 'https://via.placeholder.com/200x150'\n        },\n        {\n            name: 'Hummus',\n            description: 'Smooth blend of chickpeas, tahini, and olive oil',\n            imageUrl: 'https://via.placeholder.com/200x150'\n        },\n        {\n            name: 'Falafel',\n            description: 'Deep-fried chickpea patties with herbs and spices',\n            imageUrl: 'https://via.placeholder.com/200x150'\n        },\n        {\n            name: 'Kebabs',\n            description: 'Skewered meat grilled to perfection',\n            imageUrl: 'https://via.placeholder.com/200x150'\n        }\n    ];\n\n    items.forEach(item => {\n        const menuItem = document.createElement('div');\n        menuItem.classList.add('menu-item');\n\n        const img = document.createElement('img');\n        img.src = item.imageUrl;\n        img.alt = item.name;\n\n        const name = document.createElement('h3');\n        name.textContent = item.name;\n\n        const desc = document.createElement('p');\n        desc.textContent = item.description;\n\n        menuItem.appendChild(img);\n        menuItem.appendChild(name);\n        menuItem.appendChild(desc);\n        menuList.appendChild(menuItem);\n    });\n\n    content.appendChild(headline);\n    content.appendChild(menuList);\n}\n\n//# sourceURL=webpack://your-project/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ loadMenu)\n/* harmony export */ });\n/* harmony import */ var _img_img1_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./img/img1.jpg */ \"./src/img/img1.jpg\");\n/* harmony import */ var _img_img2_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./img/img2.jpg */ \"./src/img/img2.jpg\");\n/* harmony import */ var _img_img3_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./img/img3.jpg */ \"./src/img/img3.jpg\");\n/* harmony import */ var _img_img4_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./img/img4.jpg */ \"./src/img/img4.jpg\");\n// src/menu.js\n\n\n\n\n\n\n\nfunction loadMenu() {\n    const content = document.getElementById('content');\n    content.innerHTML = ''; // Clear previous content\n\n    const headline = document.createElement('h2');\n    headline.textContent = 'Our Menu';\n\n    const menuList = document.createElement('div');\n    menuList.classList.add('menu-list');\n\n    const items = [\n        {\n            name: 'Shawarma',\n            description: 'Thinly sliced, marinated meat (chicken, beef, or lamb) served in pita bread with vegetables and sauces.',\n            imageUrl: _img_img1_jpg__WEBPACK_IMPORTED_MODULE_0__\n        },\n        {\n            name: 'Hummus',\n            description: 'A smooth, creamy dip made from blended chickpeas, tahini (sesame paste), lemon juice, and garlic, garnished with olive oil, vegetables and spices.',\n            imageUrl: _img_img2_jpg__WEBPACK_IMPORTED_MODULE_1__\n        },\n        {\n            name: 'Falafel',\n            description: 'Deep-fried patties made from ground chickpeas, mixed with herbs and spices, served in pita or plate with salad and tahini.',\n            imageUrl: _img_img3_jpg__WEBPACK_IMPORTED_MODULE_2__\n        },\n        {\n            name: 'Kebbeh',\n            description: 'A Middle Eastern dish of spiced ground beef or lamb, mixed with bulgur wheat, formed into balls or patties, either fried or baked.',\n            imageUrl: _img_img4_jpg__WEBPACK_IMPORTED_MODULE_3__\n        }\n    ];\n\n    items.forEach(item => {\n        const menuItem = document.createElement('div');\n        menuItem.classList.add('menu-item');\n\n        const img = document.createElement('img');\n        img.src = item.imageUrl;\n        img.alt = item.name;\n        img.classList.add('img1');\n\n        const name = document.createElement('h3');\n        name.textContent = item.name;\n\n        const desc = document.createElement('p');\n        desc.textContent = item.description;\n\n        menuItem.appendChild(img);\n        menuItem.appendChild(name);\n        menuItem.appendChild(desc);\n        menuList.appendChild(menuItem);\n    });\n\n    content.appendChild(headline);\n    content.appendChild(menuList);\n}\n\n//# sourceURL=webpack://your-project/./src/menu.js?");
+
+/***/ }),
+
+/***/ "./src/img/arabic4.otf":
+/*!*****************************!*\
+  !*** ./src/img/arabic4.otf ***!
+  \*****************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"b07ed0e167db6870377c.otf\";\n\n//# sourceURL=webpack://your-project/./src/img/arabic4.otf?");
+
+/***/ }),
+
+/***/ "./src/img/img1.jpg":
+/*!**************************!*\
+  !*** ./src/img/img1.jpg ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"bbe5b349ae39647af9eb.jpg\";\n\n//# sourceURL=webpack://your-project/./src/img/img1.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/img2.jpg":
+/*!**************************!*\
+  !*** ./src/img/img2.jpg ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"17857ef583825c68ec99.jpg\";\n\n//# sourceURL=webpack://your-project/./src/img/img2.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/img3.jpg":
+/*!**************************!*\
+  !*** ./src/img/img3.jpg ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"20c25e6e781eaa7146e2.jpg\";\n\n//# sourceURL=webpack://your-project/./src/img/img3.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/img4.jpg":
+/*!**************************!*\
+  !*** ./src/img/img4.jpg ***!
+  \**************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"854c94bf394a91c24c88.jpg\";\n\n//# sourceURL=webpack://your-project/./src/img/img4.jpg?");
 
 /***/ })
 
@@ -176,6 +236,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = __webpack_modules__;
+/******/ 	
 /************************************************************************/
 /******/ 	/* webpack/runtime/compat get default export */
 /******/ 	(() => {
@@ -201,6 +264,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/global */
+/******/ 	(() => {
+/******/ 		__webpack_require__.g = (function() {
+/******/ 			if (typeof globalThis === 'object') return globalThis;
+/******/ 			try {
+/******/ 				return this || new Function('return this')();
+/******/ 			} catch (e) {
+/******/ 				if (typeof window === 'object') return window;
+/******/ 			}
+/******/ 		})();
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
@@ -215,6 +290,55 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 			}
 /******/ 			Object.defineProperty(exports, '__esModule', { value: true });
 /******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/publicPath */
+/******/ 	(() => {
+/******/ 		var scriptUrl;
+/******/ 		if (__webpack_require__.g.importScripts) scriptUrl = __webpack_require__.g.location + "";
+/******/ 		var document = __webpack_require__.g.document;
+/******/ 		if (!scriptUrl && document) {
+/******/ 			if (document.currentScript && document.currentScript.tagName.toUpperCase() === 'SCRIPT')
+/******/ 				scriptUrl = document.currentScript.src;
+/******/ 			if (!scriptUrl) {
+/******/ 				var scripts = document.getElementsByTagName("script");
+/******/ 				if(scripts.length) {
+/******/ 					var i = scripts.length - 1;
+/******/ 					while (i > -1 && (!scriptUrl || !/^http(s?):/.test(scriptUrl))) scriptUrl = scripts[i--].src;
+/******/ 				}
+/******/ 			}
+/******/ 		}
+/******/ 		// When supporting browsers where an automatic publicPath is not supported you must specify an output.publicPath manually via configuration
+/******/ 		// or pass an empty string ("") and set the __webpack_public_path__ variable from your code to use your own logic.
+/******/ 		if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+/******/ 		scriptUrl = scriptUrl.replace(/#.*$/, "").replace(/\?.*$/, "").replace(/\/[^\/]+$/, "/");
+/******/ 		__webpack_require__.p = scriptUrl;
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/jsonp chunk loading */
+/******/ 	(() => {
+/******/ 		__webpack_require__.b = document.baseURI || self.location.href;
+/******/ 		
+/******/ 		// object to store loaded and loading chunks
+/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
+/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
+/******/ 		var installedChunks = {
+/******/ 			"main": 0
+/******/ 		};
+/******/ 		
+/******/ 		// no chunk on demand loading
+/******/ 		
+/******/ 		// no prefetching
+/******/ 		
+/******/ 		// no preloaded
+/******/ 		
+/******/ 		// no HMR
+/******/ 		
+/******/ 		// no HMR manifest
+/******/ 		
+/******/ 		// no on chunks loaded
+/******/ 		
+/******/ 		// no jsonp function
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/nonce */
