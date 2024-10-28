@@ -21,33 +21,41 @@ export default function loadContact() {
     const form = document.createElement('form');
     form.id = 'reservation-form';
 
+
     const nameLabel = document.createElement('label');
     nameLabel.for = 'name';
-    nameLabel.textContent = 'Name:';
+    nameLabel.textContent = 'Name: ';
     const nameInput = document.createElement('input');
     nameInput.type = 'text';
     nameInput.id = 'name';
+    nameInput.placeholder= 'Odai'
+    // nameInput.className='name1'
     nameInput.required = true;
 
     const emailLabel = document.createElement('label');
     emailLabel.for = 'email';
-    emailLabel.textContent = 'Email:';
+    emailLabel.textContent = ' Email: ';
     const emailInput = document.createElement('input');
     emailInput.type = 'email';
     emailInput.id = 'email';
+    emailInput.placeholder = 'Odai-dh@hyperisland.com';
+    // emailInput.className = 'email';
     emailInput.required = true;
 
     const dateLabel = document.createElement('label');
     dateLabel.for = 'date';
-    dateLabel.textContent = 'Reservation Date:';
+    dateLabel.textContent = ' Reservation Date: ';
     const dateInput = document.createElement('input');
     dateInput.type = 'date';
     dateInput.id = 'date';
+    // dateInput.className = 'data';
     dateInput.required = true;
+    
 
     const submitButton = document.createElement('button');
     submitButton.type = 'submit';
-    submitButton.textContent = 'Submit';
+    submitButton.textContent = 'BOOK';
+    submitButton.className='button1'
 
     // Append form fields
     form.append(nameLabel, nameInput, emailLabel, emailInput, dateLabel, dateInput, submitButton);
